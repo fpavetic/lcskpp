@@ -23,6 +23,7 @@ For compiling this library, it is necessary to have C++11 compatible compiler.
 
 ### References
 [1] Filip Pavetic, Goran Zuzic, Mile Sikic: _LCSk++: Practical similarity metric for long strings_, http://arxiv.org/pdf/1407.2407v1.pdf  
-* This paper has been created as a continuation of the Master Thesis of the first author, written on the Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia  
 [2] Gary Benson, Avivit Levy, Riva Shalom: _Longest Common Subsequence in k-length substrings_, http://arxiv.org/abs/1402.2097  
 [3] Sebastian Deorowicz, Szymon Grabowski: _Efficient algorithms for the longest common subsequence in k-length substrings_, http://arxiv.org/abs/1311.4552
+
+Note: [1] has been created as a continuation of the first authors Master Thesis, written on the Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia
