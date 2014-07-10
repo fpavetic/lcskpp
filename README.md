@@ -1,4 +1,4 @@
 lcskpp
 ======
 
-LCSk++ similarity metric for long strings
+LCSk++: Practical similarity metric for long strings
