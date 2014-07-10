@@ -26,4 +26,4 @@ For compiling this library, it is necessary to have C++11 compatible compiler.
 [2] Gary Benson, Avivit Levy, Riva Shalom: _Longest Common Subsequence in k-length substrings_, http://arxiv.org/abs/1402.2097  
 [3] Sebastian Deorowicz, Szymon Grabowski: _Efficient algorithms for the longest common subsequence in k-length substrings_, http://arxiv.org/abs/1311.4552
 
-Note: [1] has been created as a continuation of the first authors Master Thesis, written on the Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia
+Note: [1] has been created as a continuation of the first authors Master Thesis, written on the Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia.
