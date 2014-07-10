@@ -5,7 +5,7 @@
  *  b) update(x, v): sets the x-th element to v, if v
  *                   is bigger than the previously stored value
  *                   on position x, otherwise nothing happens
- *
+ *  Note: x >= 0
  * @author: Filip Pavetic (fpavetic@gmail.com)
  */
 
@@ -22,19 +22,18 @@
 template<class T>
 class FenwickMax {
  public:
-  FenwickMax(int n) {
-    elements_ = std::vector<T> (n+1, T());
+  FenwickMax(size_t n) {
+    elements_ = std::vector<T> (n+1);
   }
   
-  void update(int pos, const T& val) {
+  void update(size_t pos, const T& val) {
     ++pos;
     for ( ; pos < elements_.size(); pos += lobit(pos)) {
       elements_[pos] = std::max(elements_[pos], val);
     }
   }
-  
 
-  T get(int pos) {
+  T get(size_t pos) {
     ++pos;
     T ret = T();
     for ( ; pos > 0; pos -= lobit(pos)) {
@@ -44,7 +43,7 @@ class FenwickMax {
   }
 
  private:
-  int lobit(const int& a) { return a&-a; }
+  size_t lobit(const size_t& a) { return a&-a; }
   
  private:
   std::vector<T> elements_;

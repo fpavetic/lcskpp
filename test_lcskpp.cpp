@@ -29,7 +29,7 @@ const int kStringLen = 100;
 const int kSimulationRuns = 1000; 
 
 // Default value of the k parameter.
-const int kK = 3;
+const int kK = 10;
 
 // If kPerr is set to -1 then rand-to-rand strings are aligned, otherwise rand-to-modified-copy simulations are performed.
 // const double kPerr = -1.0;
@@ -84,6 +84,12 @@ void calculate_distribution(map<int, double>& distr) {
 }
 
 int main(int argc, char* argv[]) {
+  printf("Running tests on %d random pairs ", kSimulationRuns);
+  printf("with the following parameters:\n");
+  printf("  string length=%d\n", kStringLen);
+  printf("  k=%d\n", kK);
+  printf("  pErr=%0.2lf\n", kPerr);
+
   srand(1603);
 
   map<int, double> distr;
@@ -99,6 +105,7 @@ int main(int argc, char* argv[]) {
   }
 
   assert(0.99999 <= sum_prob <= 1.00001);
-  printf("Expected k-LCS=%0.3lf\n", e_lcs);
+  printf("Expected LCSk++=%0.3lf\n", e_lcs);
+  printf("Test PASSED!\n");
   return 0;
 }

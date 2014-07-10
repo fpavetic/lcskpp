@@ -18,6 +18,9 @@
 // lcskpp_sparse_slow and lcskpp_sparse_fast, 
 // depending on the number of match pairs in the
 // strings.
+// 
+// If lcskpp_reconstruction equals NULL, only the
+// value of the metric is computed, without reconstructing it.
 void lcskpp(
     const std::string& a, const std::string& b, 
     const int k, int* lcskpp_length,
@@ -26,6 +29,9 @@ void lcskpp(
 // This is a slower, match pair based, LCSk++ calculation.
 // When number of match pairs is low, this can perform better in
 // practice.
+// 
+// If lcskpp_reconstruction equals NULL, only the
+// value of the metric is computed, without reconstructing it.
 void lcskpp_sparse_slow(
     const std::string& a, const std::string& b, 
     const int k, int* lcskpp_length,
@@ -34,6 +40,9 @@ void lcskpp_sparse_slow(
 // This is the algorithm described in Section 3.2 of the paper 
 // LCSk++: A practical similarity metric for long strings
 // (http://arxiv.org/pdf/1407.2407v1.pdf)
+// 
+// If lcskpp_reconstruction equals NULL, only the
+// value of the metric is computed, without reconstructing it.
 void lcskpp_sparse_fast(
     const std::string& a, const std::string& b, 
     const int k, int* lcskpp_length,
