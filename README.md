@@ -13,7 +13,7 @@ This restriction loses some matches, but allows for a faster computation.
    >> Implementation of several algorithms for computing LCSk++. The approach described in Section 3.2 of [1] can be found in the lcskpp_sparse_fast function.
 * __fenwick.h__  
    >> Implementation of the Fenwick tree data structure used by the lcskpp_sparse_fast.
-* __test_klcs.cpp__  
+* __test_lcskpp.cpp__  
    >> A unit test for the algorithm.
 * __random_strings.h__  
    >> Functions for generating random strings as described in Section 4.1 of [1].
