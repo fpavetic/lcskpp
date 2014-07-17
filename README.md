@@ -22,7 +22,7 @@ This restriction loses some matches, but allows for a faster computation.
 For compiling this library, it is necessary to have C++11 compatible compiler.
 
 ### References
-[1] Filip Pavetic, Goran Zuzic, Mile Sikic: _LCSk++: Practical similarity metric for long strings_, http://arxiv.org/abs/1407.2407
+[1] Filip Pavetic, Goran Zuzic, Mile Sikic: _LCSk++: Practical similarity metric for long strings_, http://arxiv.org/abs/1407.2407  
 [2] Gary Benson, Avivit Levy, Riva Shalom: _Longest Common Subsequence in k-length substrings_, http://arxiv.org/abs/1402.2097  
 [3] Sebastian Deorowicz, Szymon Grabowski: _Efficient algorithms for the longest common subsequence in k-length substrings_, http://arxiv.org/abs/1311.4552
 
