@@ -8,7 +8,7 @@ which is a parameter of the algorithm. For example: longest common subsequence o
 ABCDAB and ABCADB is of length 5 (ABCDB), while LCSk++ of these two strings with k=3 is 3 (ABC).
 This restriction loses some matches, but allows for a faster computation.
 
-__NOTE__: Since this project, the algorithms for the problem have advanced. It is recommended to visit https://github.com/google/fast-simple-lcsk/ to obtain better implementation.
+__NOTE__: The algorithms for the problem have advanced since this project. It is recommended to visit https://github.com/google/fast-simple-lcsk/ to obtain a better implementation.
 
 ### Implementation
 * __lcskpp.h/lcskpp.cpp__  
