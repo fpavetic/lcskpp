@@ -8,7 +8,7 @@ which is a parameter of the algorithm. For example: longest common subsequence o
 ABCDAB and ABCADB is of length 5 (ABCDB), while LCSk++ of these two strings with k=3 is 3 (ABC).
 This restriction loses some matches, but allows for a faster computation.
 
-NOTE: Since this project, the algorithms for the problem have advanced. It is recommended to visit https://github.com/google/fast-simple-lcsk/ to obtain better implementations.
+__NOTE__: Since this project, the algorithms for the problem have advanced. It is recommended to visit https://github.com/google/fast-simple-lcsk/ to obtain better implementation.
 
 ### Implementation
 * __lcskpp.h/lcskpp.cpp__  
@@ -28,4 +28,4 @@ For compiling this library, it is necessary to have C++11 compatible compiler.
 [2] Gary Benson, Avivit Levy, Riva Shalom: _Longest Common Subsequence in k-length substrings_, http://arxiv.org/abs/1402.2097  
 [3] Sebastian Deorowicz, Szymon Grabowski: _Efficient algorithms for the longest common subsequence in k-length substrings_, http://arxiv.org/abs/1311.4552
 
-Note: [1] has been created as a continuation of the first authors Master Thesis, written on the Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia.
+__NOTE__: [1] has been created as a continuation of the first authors Master Thesis, written on the Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia.
